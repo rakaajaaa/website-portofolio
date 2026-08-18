@@ -35,7 +35,7 @@ header {
 nav a {
     color: #444;
     font-size: 17px;
-    margin-left: 30px;
+    margin-left: 20px;
     transition: 0.3s;
 }
 nav a:hover,
