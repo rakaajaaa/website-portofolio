@@ -247,21 +247,26 @@ footer {
 
     header {
         padding: 15px 4%;
-        flex-direction: column;
-        gap: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 20px;
     }
 
     nav {
         display: flex;
+        align-items: center;
+        gap: 8px;
         flex-wrap: nowrap;
-        justify-content: center;
-        gap: 12px;
-        width: 100%;
     }
 
     nav a {
         margin-left: 0;
-        font-size: 13px;
+        font-size: 12px;
         white-space: nowrap;
     }
 
